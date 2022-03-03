@@ -1,5 +1,5 @@
+
 from weapon import Weapon
-from dinosaur_file import Dinosaur
 
 
 class Robot:
@@ -8,5 +8,5 @@ class Robot:
         self.robot_health = 50
         self.equiped_weapon = Weapon('Incinerator', 30)
 
-    def attack_dino(self):
-       self.equiped_weapon.attack_power -= 
+    def attack_dino(self,dino_health,robo_weapon):
+        dino_health -= robo_weapon 

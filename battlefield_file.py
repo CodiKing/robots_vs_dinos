@@ -2,16 +2,16 @@ from fleet_file import Fleet
 from herd_file import Herd
 
 class Battlefield:
-    def __init__(self):
+    def __init__(self,):
         self.fleet = Fleet()
         self.herd = Herd()
-    
+        
 
     def run_game(self):
-        pass
+        self.display_welcome()
 
     def display_welcome(self):
-        pass
+        print('Welcome ladies and gentlemen to the collisuem of blood and oil!')
 
     def battle(self):
         pass

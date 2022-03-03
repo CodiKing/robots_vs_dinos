@@ -1,7 +1,5 @@
 
 
-from unicodedata import name
-
 
 class Weapon:
     def __init__(self,weapon_name, attack_power):
