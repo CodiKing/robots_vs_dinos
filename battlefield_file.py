@@ -1,5 +1,5 @@
-from fleet import Fleet
-from herd import Herd
+from fleet_file import Fleet
+from herd_file import Herd
 
 class Battlefield:
     def __init__(self):
