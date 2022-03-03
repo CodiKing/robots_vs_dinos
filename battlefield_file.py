@@ -16,7 +16,7 @@ class Battlefield:
     def battle(self):
         pass
 
-    def dino_turn(self):
+    def dino_turn(self,dinosaur_turn):
         pass
 
     def robo_turn(self):
