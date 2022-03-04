@@ -8,5 +8,5 @@ class Robot:
         self.robot_health = 60
         self.equiped_weapon = Weapon('Incinerator', 30)
 
-    def attack_dino(self,dino_health,robo_weapon):
-        self.dino_leftover_hp = dino_health - robo_weapon
+    def attack_dino(self,dino_to_attack):
+        self.equiped_weapon -= dino_to_attack
