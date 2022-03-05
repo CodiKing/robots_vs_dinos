@@ -1,4 +1,4 @@
-from robot_file import Robot
+
 
 class Dinosaur:
     def __init__(self,dino_name):
@@ -7,4 +7,9 @@ class Dinosaur:
         self.health = 70
 
     def attack_robot(self,robo_to_attack):
-        self.attack_power -= robo_to_attack
+        robo_to_attack.robot_health -= self.attack_power
+        print(f'{robo_to_attack.robot_name} has {robo_to_attack.robot_health}')
+       
+
+    def __str__(self):
+        return self.dino_name
